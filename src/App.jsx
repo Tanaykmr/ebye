@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import Purchase from "./components/User/Purchase";
 import Sell from "./components/User/Sell";
+import Tester from "./components/Tester";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="Signup" element={<Signup/>}/>
           <Route path="/Purchase" element={<Purchase/>}/>
           <Route path="/Sell" element={<Sell/>}/>
+          <Route path="/Tester" element={<Tester/>}/>
         </Routes>
       </>
     </Router>
