@@ -110,6 +110,15 @@ const Login = () => {
               >
                 Login
               </Button>
+              <Button
+                type="submit"
+                variant="contained"
+                color="secondary"
+                fullWidth
+                style={{ marginTop: 10 }}
+              >
+                Login
+              </Button>
           </CardContent>
         </Card>
       </div>
