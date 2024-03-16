@@ -113,9 +113,8 @@ const Login = () => {
               <Button
                 type="submit"
                 variant="contained"
-                color="secondary"
+                color=""
                 fullWidth
-                style={{ marginTop: 10 }}
               >
                 Login
               </Button>
