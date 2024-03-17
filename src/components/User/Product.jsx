@@ -9,7 +9,7 @@ const Product = ({ image, name, price,year }) => {
       <div className="text-gray-600">{price}</div>
       <div className="text-gray-800">{year}</div>
       <button className="mt-4 bg-secondary text-white px-4 py-2 rounded-md hover:bg-pink">
-        Add to Cart
+        Buy Now
       </button>
     </div>
   );

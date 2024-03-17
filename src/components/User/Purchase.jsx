@@ -1,4 +1,3 @@
-import Navbar from '../Navbar';
 import Product from './Product';
 import photo1 from "../../assets/purchase-imageone.png"
 import photo2 from "../../assets/purchase-imagetwo.png"
@@ -6,7 +5,7 @@ import photo3 from "../../assets/purchase-imagethree.png"
 import photo4 from "../../assets/purchase-imagefour.png"
 import photo5 from "../../assets/purchase-imagefive.png"
 import photo6 from "../../assets/purchase-imagesix.png"
-import photo7 from "../../assets/purchase-imageseven.png"\
+import photo7 from "../../assets/purchase-imageseven.png"
 import photo8 from "../../assets/purchase-imageeight.png"
 
 
@@ -16,11 +15,11 @@ const Purchase = () => {
    
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          <Product
+          <Product className='my-1.5'
             image= {photo1}
-            name="Dell Inspiron"
+            name="Asus TUF"
             year="2021"
-            price="₹19999"
+            price="₹29999"
           />
           <Product
             image={photo2}
