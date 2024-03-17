@@ -106,7 +106,11 @@ const Login = () => {
                   axios.post("http://localhost:3000/user/login", {username, password}).then((response) => {
                     console.log(response)
                     if(response.status===200){
+                      localStorage.setItem("authorization", response.data.token)
                       navigate("/sell")
+                    }
+                    else if(response.status === 403){
+                      alert("invalid credentials!")
                     }
                   })
                 }}

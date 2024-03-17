@@ -117,6 +117,7 @@ const Signup = () => {
                   axios.post("http://localhost:3000/user/signup", {username, password}).then((response) => {
                     console.log(response)
                     if(response.status===200){
+                      localStorage.setItem("authorization", response.data.token)
                       navigate("/sell")
                     }
                   })

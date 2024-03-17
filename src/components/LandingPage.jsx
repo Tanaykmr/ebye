@@ -11,7 +11,6 @@ const LandingPage = () => {
             <Features/>
             <About/>
             <ContactUs/>
-
         </div>
     )
 }
