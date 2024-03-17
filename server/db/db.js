@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const userSchema = new mongoose.Schema({
   username: { type: String },
   password: String,
+  email: String,
   purchasedDevices: [{ type: mongoose.Schema.Types.ObjectId, ref: "Device" }],
 });
 
@@ -14,7 +15,6 @@ const orgSchema = new mongoose.Schema({
 });
 
 const deviceSchema = new mongoose.Schema({
-  title: String,
   category: String,
   model: String,
   age: Number,

@@ -8,14 +8,10 @@ const Sell = () => {
     setMode(mode === 'User' ? 'Organization' : 'User');
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Add your form submission logic here
-  };
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <form onSubmit={handleSubmit}>
+      <form>
         <Typography variant="h4" align="center">Sell</Typography>
         <FormGroup>
           <FormControlLabel
@@ -25,7 +21,6 @@ const Sell = () => {
         </FormGroup>
         {mode === 'User' ? (
           <>
-            <TextField label="User Name" variant="outlined" fullWidth margin="normal" />
             <TextField label="Product Name" variant="outlined" fullWidth margin="normal" />
             <TextField label="Year of Manufacture" type="number" variant="outlined" fullWidth margin="normal" />
             <TextField
