@@ -1,5 +1,5 @@
 # E  Bye
-> Buy and sell potential e-waste, and become sustainable from it
+### Buy and sell potential e-waste, and become sustainable from it
 
 Here are the steps to set up the repo:
 1. navigate to the root folder
