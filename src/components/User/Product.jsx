@@ -1,4 +1,6 @@
 
+
+
 const Product = ({ image, name, price,year }) => {
   return (
     <div className="border border-gray-200 rounded-lg p-4 m-4">
