@@ -2,26 +2,28 @@ import React, { useState } from 'react';
 import { FormControlLabel, FormGroup, Switch, TextField, Button, MenuItem, Typography } from '@mui/material';
 
 const Sell = () => {
-  const [mode, setMode] = useState('User');
+  // const [mode, setMode] = useState('User');
 
-  const handleModeChange = () => {
-    setMode(mode === 'User' ? 'Organization' : 'User');
-  };
+
+  // const handleModeChange = () => {
+  //   setMode(mode === 'User' ? 'Organization' : 'User');
+  // };
 
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <form>
         <Typography variant="h4" align="center">Sell</Typography>
-        <FormGroup>
+        {/* <FormGroup>
           <FormControlLabel
             control={<Switch checked={mode === 'Organization'} onChange={handleModeChange} />}
             label={mode === 'User' ? 'User' : 'Organization'}
           />
-        </FormGroup>
-        {mode === 'User' ? (
+        </FormGroup> */}
+        {/* {mode === 'User' ? (
+           */}
           <>
-            <TextField label="Product Name" variant="outlined" fullWidth margin="normal" />
+            <TextField label="Model" variant="outlined" fullWidth margin="normal" />
             <TextField label="Year of Manufacture" type="number" variant="outlined" fullWidth margin="normal" />
             <TextField
               select
@@ -48,7 +50,7 @@ const Sell = () => {
               <MenuItem value="mint">Mint</MenuItem>
             </TextField>
           </>
-        ) : (
+        {/* ) : (
           <>
             <TextField label="Organization Name" variant="outlined" fullWidth margin="normal" />
             <TextField label="Product Name" variant="outlined" fullWidth margin="normal" />
@@ -84,8 +86,8 @@ const Sell = () => {
         )}
         <Button type="submit" variant="contained" color="primary" fullWidth>
           Sell
-        </Button>
-      </form>
+        </Button> */}
+      </form> 
     </div>
   );
 };
