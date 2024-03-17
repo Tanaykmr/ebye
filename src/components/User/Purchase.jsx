@@ -3,6 +3,11 @@ import Product from './Product';
 import photo1 from "../../assets/purchase-imageone.png"
 import photo2 from "../../assets/purchase-imagetwo.png"
 import photo3 from "../../assets/purchase-imagethree.png"
+import photo4 from "../../assets/purchase-imagefour.png"
+import photo5 from "../../assets/purchase-imagefive.png"
+import photo6 from "../../assets/purchase-imagesix.png"
+import photo7 from "../../assets/purchase-imageseven.png"\
+import photo8 from "../../assets/purchase-imageeight.png"
 
 
 const Purchase = () => {
@@ -19,16 +24,47 @@ const Purchase = () => {
           />
           <Product
             image={photo2}
-            name="Carbon Monitoring System 2"
-            year="2022"
-            price="$149.99"
+            name="Poco m3"
+            year="2021"
+            price="₹10000"
           />
           <Product
             image={photo3}
-            name="Carbon Monitoring System 1"
-            year="2023"
-            price="$99.99"
+            name="Asus vivobook"
+            year="2022"
+            price="₹16000"
           />
+          <Product
+            image= {photo4}
+            name="iPhone 13"
+            year="2021"
+            price="₹30000"
+          />
+          <Product
+            image={photo5}
+            name="Redmi Note 13 pro"
+            year="2022"
+            price="₹9999"
+          />
+          <Product
+            image={photo6}
+            name="Mac M1"
+            year="2023"
+            price="₹39999"
+          />
+          <Product
+            image={photo7}
+            name="Samsung S23"
+            year="2022"
+            price="₹29999"
+          />
+          <Product
+            image={photo8}
+            name="Vivo V29"
+            year="2021"
+            price="7999"
+          />
+          
           {/* Add more Product components as needed */}
         </div>
       </div>

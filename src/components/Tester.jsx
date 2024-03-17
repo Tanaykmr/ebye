@@ -11,7 +11,7 @@ const Tester = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-primary">
+    <div className="flex items-center justify-center h-screen bg-primary ">
       <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <h2 className="text-2xl font-bold mb-6 text-secondary mx-[60px]">Tester</h2>
         <div className="mb-4">
